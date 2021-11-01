@@ -1,0 +1,329 @@
+/* general */
+body {
+    padding: 0;
+    margin: 0;
+}
+/* main */
+.main {
+    font-family: sans-serif;
+    width: 100%;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+.navR ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navR ul li {
+    padding: 10px;
+    list-style: none;
+}
+.navR ul li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.active {
+    background-color: rgb(211, 154, 154);
+}
+.navL a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/* banner */
+.banner {
+    margin-top: -10px;
+    width: 100%;
+    background-image: url(/img/p1-banner.jpg);
+    height: 70vh;
+}
+.banner div {
+   padding: 100px;
+   color:rgb(211, 154, 154);
+   font-size: 30px;
+}
+.banner div input {
+    border: none;
+    color: black;
+    background-color: rgb(211, 154, 154);
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.banner h1 {
+    letter-spacing: 2px;
+}
+/* col1 */
+.main1 .col {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    padding: 3px;
+}
+.main1 .col .row {
+    width: 20%;
+    background-color: rgb(211, 154, 154);
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.main1 .col .row .icon i {
+    color:orange;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.main1 .col .row h3 {
+    color: black;
+}
+.main1 .col .btn {
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(211, 154, 154);
+    color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.main1 .col .btn div {
+    padding: 15px;
+    margin-top: 120px;
+    color: black;
+    margin-right: 5px;
+}
+/* col2 */
+.main1 .col2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main1 .col2 .row {
+    width: 27%;
+    background-color:  rgb(211, 154, 154);
+    text-align: center;
+    margin: auto;
+    border-radius: 7px;
+}
+.main1 .col2 .btn {
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(211, 154, 154);
+    color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.main1 .col2 .btn div {
+    padding: 15px;
+    margin-top: 120px;
+    color: black;
+    margin-right: 5px;
+}
+.main1 .col2 .row .icon i {
+    color:orange;
+    padding: 3px;
+    margin-bottom: 5px;
+    font-size: 5px;
+}
+/* footer */
+.main .footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: rgb(211, 154, 154);
+    text-align: center;
+}
+.main .footer h3 {
+    letter-spacing: 3px;
+    padding: 5px;
+}
+.main .footer  span {
+    color: white;
+}
+.main1 .footer h5 {
+    padding: 0;
+}
+.main .footer .icon i {
+    padding: 10px;
+}
+/* pages2 */
+.main2 .content h1  {
+    text-align: center;
+}
+.main2 .content  {
+    width: 100%;
+    text-align: center;
+}
+.main2 .content .box {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.main2 .content .box .card {
+    width: 21%;
+    background-color: rgb(211, 154, 154);
+    text-align: center;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.main2 .box .card .icon i {
+    color: orange;
+    list-style: 2px;
+}
+.main2 .box .card h3 {
+    color: white;
+}
+.main2 .box .btn input{
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* footer-box */
+.main2 .box .footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.main2 .box  .footer-card input {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+.main .box .footer-card .text {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+/* pages3 */
+.main3 .content h1  {
+    text-align: center;
+}
+.main3 .content  {
+    width: 100%;
+    text-align: center;
+}
+.main3 .content .box {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.main3 .content .box .card {
+    width: 21%;
+    background-color: rgb(211, 154, 154);
+    text-align: center;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.main3 .box .card .icon i {
+    color: orange;
+    list-style: 2px;
+}
+.main3 .box .card h3 {
+    color: white;
+}
+.main3 .box .btn input{
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* footer-box */
+.main3 .box .footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.main3 .box  .footer-card input {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+.main .box .footer-card .text {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+/* main4 */
+.main4 .content {
+    width: 100%;
+    margin: auto;
+}
+.main4 .content h1 {
+    text-align:center;
+}
+.main4 .content .box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.main4 .content .box .card {
+    width: 32%;
+    margin: auto;
+    background-color:rgb(211, 154, 154) ;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.main4 .content .box .card .footer-card {
+    padding: 10px;
+}
+.main4 .content .box .card .footer-card input {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.main4 .content .box .card .text-a ul li{
+    text-align: start;
+    list-style: none;
+    font-weight: bold;
+    color: white;
+}
+.main4 .content .box .card .footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main4 .content .box .card .icon i {
+    color: orange;
+}
+.main4 .content .box .btn input {
+    background-color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
